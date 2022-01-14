@@ -16,7 +16,6 @@ if __name__ == '__main__':
             continue
         n[i] = chr((ord(txt[i]) - ord('a') + key[i%key_l])%26 + ord('a'))
     s = ''.join(n)
-    print(s)
     with open('密文.txt','w') as f:
         f.write(s)
         f.close()
