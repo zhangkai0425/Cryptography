@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 # base = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F]
+# 注：一个从CSDN上复制的DES加密算法的python实现，假期太懒了不想自己写了，这个写得挺好，可以学习学习
  
 base = [str(x) for x in range(10)] + [ chr(x) for x in range(ord('A'),ord('A')+6)]
 # bin2dec
