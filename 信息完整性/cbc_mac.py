@@ -62,5 +62,3 @@ if __name__ == '__main__':
     print('enc_str: ' + enc_str.decode())
     dec_str = e.decrypt(enc_str)
     print('dec str: ' + dec_str)
-
-# e = AESCipher('36o%SituationSIS', "36o%SituationSIS") # AES的密钥，数字签名两边同密钥
